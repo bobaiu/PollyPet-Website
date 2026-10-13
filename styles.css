@@ -234,6 +234,26 @@ main:focus {
   overflow-wrap: anywhere;
 }
 
+/* Unresolved items in draft content: [PLACEHOLDER] and [VERIFY: ...] */
+.draft-placeholder,
+.draft-note {
+  padding: 0 0.25em;
+  color: var(--color-placeholder-text);
+  background: var(--color-placeholder-bg);
+  border: 1px dashed var(--color-placeholder-text);
+  border-radius: 4px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.draft-placeholder {
+  font-weight: 700;
+}
+
+.draft-note {
+  font-style: italic;
+}
+
 .contact-tip {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
@@ -290,6 +310,87 @@ main:focus {
   margin-top: 0.5rem;
 }
 
+/* Long-form text pages (privacy policy) */
+.prose {
+  max-width: 46rem;
+}
+
+.prose h1 {
+  font-size: clamp(2rem, 4vw + 1rem, 2.75rem);
+  letter-spacing: -0.02em;
+}
+
+.prose h2 {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.prose h3 {
+  margin-top: 1.75rem;
+  font-size: 1.1875rem;
+}
+
+.prose ul {
+  padding-left: 1.25rem;
+  margin: 0 0 1em;
+}
+
+.prose li + li {
+  margin-top: 0.5rem;
+}
+
+.prose a {
+  overflow-wrap: anywhere;
+}
+
+.back-link {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.effective-date {
+  color: var(--color-muted);
+}
+
+.prose address {
+  font-style: normal;
+}
+
+.table-wrap {
+  margin: 0 0 1.5rem;
+  overflow-x: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+}
+
+.table-wrap table {
+  width: 100%;
+  min-width: 16rem;
+  border-collapse: collapse;
+}
+
+.table-wrap th,
+.table-wrap td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table-wrap thead th {
+  background: var(--color-surface-alt);
+}
+
+.table-wrap tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.table-wrap tbody th {
+  font-weight: 600;
+}
+
 /* Footer */
 .site-footer {
   padding: 2rem 0;
@@ -327,5 +428,13 @@ main:focus {
 
   .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Windows High Contrast / forced colors */
+@media (forced-colors: active) {
+  .draft-placeholder,
+  .draft-note {
+    border-color: CanvasText;
   }
 }
