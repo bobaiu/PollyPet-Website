@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy – PollyPet</title>
-  <meta name="description" content="How PollyPet handles your information: what is collected, why, who it is shared with, how long it is kept, and the choices you have.">
+  <meta name="description" content="How PollyPet handles your information: what is collected, why, who receives it, how long it is kept, and the choices you have.">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#7c4dff">
   <link rel="stylesheet" href="styles.css">
@@ -34,65 +34,82 @@
 
         <h1>PollyPet Privacy Policy</h1>
 
-        <p class="effective-date"><strong>Effective date:</strong> <span class="draft-placeholder">[DATE]</span></p>
+        <p class="effective-date"><strong>Effective date:</strong> <time datetime="2026-10-25">October 25, 2026</time></p>
 
-        <p>PollyPet is an app that turns photos of your pet into new images. This policy explains what information PollyPet handles, why, who it is shared with, how long it is kept, and the choices you have.</p>
+        <p>PollyPet is an app that turns photos of your pet into new images. This policy explains what information PollyPet handles, why, who receives it, how long it&rsquo;s kept, and the choices you have.</p>
 
-        <p>PollyPet is provided by <span class="draft-placeholder">[YOUR FULL LEGAL NAME]</span> (&ldquo;we&rdquo;, &ldquo;us&rdquo;), based in Quezon City, Philippines. You can contact us at <a href="mailto:support@pollypet.app">support@pollypet.app</a>.</p>
+        <p>PollyPet is provided by Richard Lamar II (&ldquo;we&rdquo;, &ldquo;us&rdquo;), based in Quezon City, Philippines. You can contact us at <a href="mailto:support@pollypet.app">support@pollypet.app</a>.</p>
 
         <h2>Summary</h2>
         <ul>
-          <li>PollyPet does not ask for your name, email address or phone number, and you don&rsquo;t need an account to use it.</li>
-          <li>When you choose to transform a photo, that photo is sent to our server and then to OpenAI, which creates the new image. This only happens after you agree in the app.</li>
-          <li>Location and other details stored in the photo are removed before it is sent.</li>
-          <li>We do not sell your information, show ads, or track you across other apps or websites.</li>
+          <li>You don&rsquo;t need an account, and PollyPet doesn&rsquo;t ask for your name, email address or phone number.</li>
+          <li>A photo leaves your device only when you tap Generate, and only after you&rsquo;ve agreed in the app. It goes to our server and then to OpenAI, which creates the new image.</li>
+          <li>We remove location and camera details from your photo before it&rsquo;s sent.</li>
+          <li>We delete your uploaded photo from our servers about 24 hours after your image is generated, and your generated images and generation history after 30 days.</li>
+          <li>We keep a simple record of when images are shared from the app, to see how PollyPet is used. We don&rsquo;t show ads, use third-party analytics, sell your information or track you across other apps or websites.</li>
+          <li>You can delete your data from the app at any time with Delete My Data in Settings.</li>
         </ul>
 
         <h2>Information we handle</h2>
 
         <h3>Photos you choose to transform</h3>
-        <p>When you tap Generate, PollyPet uploads the photo you selected to our server, which sends it to OpenAI to create the transformed image. We only receive photos you choose to transform. PollyPet does not access the rest of your photo library.</p>
-        <p>Before upload, the app removes location and other information stored inside the photo file (such as camera details).</p>
-        <!-- VERIFY: the iOS team is adding a test for this. Do not publish this sentence until the test passes. -->
+        <p>When you tap Generate, PollyPet uploads the photo you selected to our server, which sends it to OpenAI to create your image. We receive only photos you choose to transform. PollyPet uses the system photo picker, so it can&rsquo;t see the rest of your photo library.</p>
+        <p>Before upload, the app removes location and camera details stored inside the photo file.</p>
 
         <h3>Images created for you</h3>
-        <p>The transformed image is stored on our server so the app can download it, and a copy is kept in the app on your device in your History.</p>
+        <p>Your generated image is stored on our server so the app can download it. A copy is also kept on your device in your History.</p>
+
+        <h3>Generation history</h3>
+        <p>For each image you create, our server records which transformation you chose, when, whether it succeeded and, if it didn&rsquo;t, the general reason (for example, that an automated safety check stopped the image). The app uses this to show your History, to tell you what happened, and to return a credit if a generation fails.</p>
+
+        <h3>Share activity</h3>
+        <p>When you share an image from PollyPet, the app tells our server that a share happened. We record which image was shared and its transformation, the kind of app or destination you chose in the share sheet (for example, Messages), the time, and whether the &ldquo;Made with PollyPet&rdquo; mark was on. We also record when you turn that mark on or off. These records are linked to your installation, not to your name, and don&rsquo;t include your IP address or the image itself. We use them only to understand how sharing is used.</p>
 
         <h3>App identity</h3>
-        <p>When PollyPet is first opened, the app creates a random identifier for your installation and a secret that only your device knows. Our server stores the identifier and a one-way hash of the secret, and issues an access token so the app can use our service. These are not linked to your name, Apple ID, email address or phone number.</p>
+        <p>When PollyPet first opens, the app creates a random identifier for your installation and a secret that only your device knows. Our server stores the identifier and a one-way hash of the secret, and issues an access token so the app can use our service. These aren&rsquo;t linked to your name, Apple ID, email address or phone number.</p>
+
+        <h3>Your consent choice</h3>
+        <p>When you allow photo uploads, the app records which version of the consent wording you agreed to, and sends that version with each photo so our server can confirm the photo was sent with your permission.</p>
 
         <h3>Credits and purchases</h3>
-        <p>We record your credit balances and how each credit was added or used, including free credits and refunds for failed transformations. When you buy credits, Apple processes the payment. We receive a signed record of the transaction from Apple, including the transaction ID and product, so we can add your credits. We do not receive your payment card or billing details.</p>
+        <p>We record your credit balances and how each credit was added or used, including free credits and returned credits for failed generations. When you buy credits, Apple handles the payment. We receive a signed record of the transaction from Apple, including the transaction ID and product, so we can add your credits. We never receive your payment card or billing details.</p>
 
-        <h3>Technical information</h3>
-        <p>Our server processes your device&rsquo;s IP address when the app connects, including to limit repeated registration attempts. <span class="draft-note">[VERIFY: whether IP addresses appear in server logs, and for how long logs are kept.]</span></p>
+        <h3 id="purchase-records">Purchase and accounting records</h3>
+        <p>Apple processes payments for purchases made through the App Store. We maintain limited purchase records to verify transactions, grant and reconcile credits, prevent duplicate purchase processing, handle refunds, and meet applicable accounting and tax obligations.</p>
+        <p>Records required for accounting or tax compliance are kept for the period Philippine tax law requires. We keep other purchase-related information only for as long as necessary for the purposes described above. Where appropriate, we may separate legally required financial records from your app identity and other app data.</p>
+
+        <h3 id="network-information">Network information</h3>
+        <p>Our server sees your device&rsquo;s IP address when the app connects, as any internet service does. It uses it briefly, in memory, to limit repeated registration attempts. We don&rsquo;t store IP addresses in our records or in our application logs.</p>
+        <p>Connections to our server pass through our hosting provider, Render, and through Cloudflare, which Render uses to protect against attacks. On our hosting plan, Render doesn&rsquo;t generate request logs that contain your IP address. Render and Cloudflare still see your IP address when handling the connection and may keep it in their own infrastructure logs under their own policies.</p>
 
         <h3>Messages you send us</h3>
-        <p>If you contact support, we receive your email address and whatever you include in your message.</p>
+        <p>If you email support, we receive your email address and whatever your message contains.</p>
 
         <h2>How we use information</h2>
         <p>We use this information only to:</p>
         <ul>
           <li>create the images you ask for and deliver them to you;</li>
           <li>keep track of your credits and apply purchases correctly;</li>
+          <li>understand how sharing from the app is used;</li>
           <li>prevent abuse, such as automated attempts to collect free credits;</li>
-          <li>respond to your support requests;</li>
+          <li>answer your support requests;</li>
           <li>keep the service working and fix problems.</li>
         </ul>
-        <p>We do not use your photos or images for advertising. <span class="draft-note">[VERIFY: we do not use photos to train any AI model.]</span></p>
+        <p>We don&rsquo;t use your photos or images for advertising, and we don&rsquo;t use them to train AI models.</p>
 
-        <h2>Who we share information with</h2>
+        <h2>Who receives information</h2>
         <ul>
-          <li><strong>OpenAI</strong>, which generates the transformed images. It receives the photo you chose to transform and instructions describing the transformation. <span class="draft-note">[VERIFY against OpenAI&rsquo;s current API terms: how long OpenAI keeps API inputs and outputs, and that they are not used to train its models by default.]</span> OpenAI&rsquo;s policies: <a href="https://openai.com/policies" rel="noopener">https://openai.com/policies</a></li>
-          <li><strong><span class="draft-placeholder">[HOSTING AND STORAGE PROVIDERS]</span></strong>, which run our server and store data on our behalf.</li>
-          <li><strong>Apple</strong>, which processes purchases under its own privacy policy.</li>
+          <li><strong>OpenAI</strong> creates your image. It receives the photo you chose and the transformation instructions. We don&rsquo;t intentionally send OpenAI your name, email address or PollyPet installation identifier with the request. The photo itself may show people or other details, which OpenAI receives as part of the image. OpenAI runs automated safety checks on the images it creates, and may stop an image from being created. OpenAI doesn&rsquo;t use your photo to train its models. It may keep it for up to 30 days to check for misuse, or longer if required by law. Images flagged as possible child sexual abuse material may be kept for manual review. OpenAI&rsquo;s policies: <a href="https://openai.com/policies" rel="noopener">https://openai.com/policies</a></li>
+          <li><strong>Render</strong> hosts our servers and database in Singapore and stores data on our behalf. Render routes connections through <strong>Cloudflare</strong> for protection against attacks, so both see your device&rsquo;s IP address.</li>
+          <li><strong>Apple</strong> handles purchases under its own privacy policy. Our support email is hosted on Apple&rsquo;s iCloud Mail, so Apple also stores the emails you send us.</li>
         </ul>
-        <p>We may also disclose information if required by law.</p>
-        <p>These service providers process information to provide their services to us. We do not sell your information or share it for advertising.</p>
+        <p>The part of our service that sends photos to OpenAI keeps no copy of them.</p>
+        <p>We may also disclose information if the law requires it. We don&rsquo;t sell your information or share it for advertising.</p>
 
         <h2>Your consent and how to withdraw it</h2>
-        <p>PollyPet asks for your permission before it sends any photo to OpenAI. If you don&rsquo;t agree, no photo is sent, but you won&rsquo;t be able to create transformations.</p>
-        <p>You can withdraw your permission at any time in the app&rsquo;s Settings. After that, no further photos are sent. Withdrawing doesn&rsquo;t affect photos already processed.</p>
+        <p>PollyPet asks your permission before it sends any photo. If you don&rsquo;t allow it, no photo is sent, and you can still browse the app, but you can&rsquo;t create images.</p>
+        <p>You can withdraw permission at any time in the app&rsquo;s Settings, under Photo Uploads. After that, no further photos are sent. Photos already sent are deleted on the schedule below.</p>
+        <p>If we change how photos are handled in a way that affects what you agreed to, the app will ask for your permission again.</p>
 
         <h2 id="retention-title">How long we keep information</h2>
         <div class="table-wrap" role="region" aria-labelledby="retention-title" tabindex="0">
@@ -106,49 +123,68 @@
             <tbody>
               <tr>
                 <th scope="row">Uploaded photos</th>
-                <td><span class="draft-placeholder">[PERIOD]</span>, then deleted</td>
+                <td>About 24 hours after your image is generated or the generation fails. Our cleanup runs every hour, so this normally happens within 25 hours.</td>
               </tr>
               <tr>
-                <th scope="row">Transformed images on our server</th>
-                <td><span class="draft-placeholder">[PERIOD]</span>, then deleted</td>
+                <th scope="row">Generated images and generation history</th>
+                <td>Deleted from our servers 30 days after the generation</td>
               </tr>
               <tr>
-                <th scope="row">Installation identity and credit records</th>
-                <td>While your installation is in use, and <span class="draft-placeholder">[PERIOD]</span> after its last use</td>
+                <th scope="row">Share activity</th>
+                <td>Deleted 90 days after it&rsquo;s recorded</td>
+              </tr>
+              <tr>
+                <th scope="row">Installation identity and credit balance</th>
+                <td>Kept while your installation is in use. Deleted after 18 months without use if it holds no credits. If it still holds credits, it&rsquo;s kept so you can use them.</td>
               </tr>
               <tr>
                 <th scope="row">Purchase records</th>
-                <td><span class="draft-placeholder">[PERIOD]</span>, as needed for accounting and to handle disputes</td>
+                <td>As described under <a href="#purchase-records">&ldquo;Purchase and accounting records&rdquo;</a> above: for the period Philippine tax law requires, and otherwise only as long as necessary</td>
+              </tr>
+              <tr>
+                <th scope="row">Our application logs</th>
+                <td>7 days. They contain no IP addresses.</td>
+              </tr>
+              <tr>
+                <th scope="row">Infrastructure logs kept by Render and Cloudflare</th>
+                <td>Under their own policies, as described under <a href="#network-information">&ldquo;Network information&rdquo;</a></td>
               </tr>
               <tr>
                 <th scope="row">Support emails</th>
-                <td><span class="draft-placeholder">[PERIOD]</span></td>
+                <td>Deleted 12 months after the last message in the conversation</td>
+              </tr>
+              <tr>
+                <th scope="row">Copies held by OpenAI</th>
+                <td>Up to 30 days, as described above</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p>Images saved in your History stay on your device until you delete them or delete the app. Deleting the app does not delete information on our server; see below to request that.</p>
+
+        <h3>On your device</h3>
+        <p>Your History and generated images stay on your device until you delete them or delete the app. If an upload couldn&rsquo;t be confirmed (for example, because the connection dropped), the app keeps the prepared photo, with location and camera details already removed, so it can try again; it&rsquo;s deleted once the upload is resolved, or after 7 days. The app&rsquo;s identity is kept in your device&rsquo;s keychain, which iOS may keep even after you delete the app; that&rsquo;s how a reinstall can keep your credits. Deleting the app doesn&rsquo;t delete anything on our server.</p>
 
         <h2>Deleting your information</h2>
-        <p>You can delete the information we hold about your installation from the app, in Settings &gt; Delete My Data. Because PollyPet has no accounts, the request is made from the app itself, which proves it comes from your installation. Deleting your information also removes any unused credits, which cannot be restored. <span class="draft-note">[VERIFY: which records are kept after deletion, such as purchase records needed for accounting, and for how long. List them here.]</span></p>
-        <p>If you no longer have the app, we cannot confirm that a request comes from you, because there is no account to check. Information about that installation is then deleted at the end of the periods listed above. You can still contact us at <a href="mailto:support@pollypet.app">support@pollypet.app</a> with questions.</p>
-        <p>The support ID shown in Settings helps us find your records when you contact us. It identifies your installation but does not prove a request comes from you, so we do not delete data on the strength of a support ID alone.</p>
+        <p>You can ask us to delete the information we hold about your installation in the app, under Settings &gt; Delete My Data. Because PollyPet has no accounts, the request is made from the app itself, which proves it comes from your installation.</p>
+        <p>When you confirm, the app immediately stops being able to use your installation, and we delete its information, including your generation history and share activity, within 30 days. If a transformation was already in progress when you confirmed, it may still finish; its photo and image are deleted with the rest of your data. Unused credits are lost and can&rsquo;t be restored, including credits from a purchase still being processed. Purchase records are kept as described under <a href="#purchase-records">&ldquo;Purchase and accounting records&rdquo;</a>, without any photo or image linked to them. Photos already sent to OpenAI follow OpenAI&rsquo;s retention described above.</p>
+        <p>If you no longer have the app, we can&rsquo;t confirm that a request comes from you, because there&rsquo;s no account to check. Information about that installation is then deleted on the schedule above.</p>
+        <p>The support ID shown in Settings helps us find your records when you contact us. It identifies your installation but doesn&rsquo;t prove a request comes from you, so we don&rsquo;t delete data based on a support ID alone.</p>
 
         <h2>Children</h2>
-        <p>PollyPet is not directed at children under 13, and we do not knowingly collect information from them. <span class="draft-note">[VERIFY: matches the age rating chosen in App Store Connect.]</span></p>
+        <p>PollyPet is not directed at children under 13, and we don&rsquo;t knowingly collect information from them.</p>
 
         <h2>Security</h2>
-        <p>We protect information in transit with encryption, store secrets and access tokens only as one-way hashes, and limit access to our systems. No system is perfectly secure, so we cannot guarantee absolute security.</p>
+        <p>Information is encrypted in transit. We store secrets and access tokens only as one-way hashes, and we limit access to our systems. No system is perfectly secure, so we can&rsquo;t guarantee absolute security.</p>
 
         <h2>International transfers</h2>
-        <p>We are based in the Philippines. Our service providers, including OpenAI, may process information in other countries, such as the United States.</p>
+        <p>We&rsquo;re based in the Philippines. Our servers are in Singapore, and OpenAI may process photos in other countries.</p>
 
         <h2>Changes to this policy</h2>
-        <p>If we change this policy, we will update the effective date above. If a change affects how photos are shared, the app will ask for your permission again.</p>
+        <p>When we change this policy, we update the effective date above. If a change affects how photos are handled, the app asks for your permission again.</p>
 
         <h2>Contact</h2>
         <address>
-          <span class="draft-placeholder">[YOUR FULL LEGAL NAME]</span><br>
+          Richard Lamar II<br>
           Quezon City, Philippines<br>
           <a href="mailto:support@pollypet.app">support@pollypet.app</a>
         </address>

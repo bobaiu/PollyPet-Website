@@ -21,12 +21,3 @@ python3 -m http.server 8000
 ```
 
 then visit <http://localhost:8000>.
-
-## Privacy policy status
-
-The privacy policy is still a draft. Unresolved items are highlighted on the page:
-
-- `[BRACKETED]` placeholders (date, legal name, providers, retention periods)
-- `[VERIFY: ...]` notes that must be checked against the real system
-
-Resolve these directly in `privacy.html` and remove the notes before publishing. The page source also contains an HTML comment marking a sentence that must not be published until it is verified.
