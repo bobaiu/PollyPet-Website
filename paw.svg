@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="206 202 640 640">
+  <!-- PollyPet paw mark from the app icon, tinted for light backgrounds. -->
+  <g fill="#6a3de8">
+    <ellipse cx="285" cy="402" rx="57" ry="76" transform="rotate(-28 285 402)"/>
+    <ellipse cx="421" cy="331" rx="58" ry="75" transform="rotate(-10 421 331)"/>
+    <ellipse cx="568" cy="332" rx="58" ry="75" transform="rotate(10 568 332)"/>
+    <path d="M512 482c-47-27-86-11-111 28-28 43-52 84-68 122-24 56-24 104 3 133 25 27 69 25 114 9 26-10 46-17 62-17s36 7 62 17c45 16 89 18 114-9 27-29 27-77 3-133-16-38-40-79-68-122-25-39-64-55-111-28z"/>
+  </g>
+  <path d="M719 337l31 78 78 31-78 31-31 78-31-78-78-31 78-31z" fill="#FF963F"/>
+  <circle cx="812" cy="306" r="17" fill="#FF963F"/>
+</svg>
