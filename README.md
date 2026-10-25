@@ -13,6 +13,7 @@ Plain HTML and CSS: no framework, build step, scripts, or third-party assets.
 | `styles.css` | Shared styles for all pages |
 | `paw.svg` | Header logo and tab icon: the app icon's paw mark, tinted for light backgrounds |
 | `favicon-96.png` | PNG tab icon for browsers without SVG favicon support |
+| `favicon.ico` | 32px tab icon that browsers request from the site root by default |
 
 ## Local preview
 
