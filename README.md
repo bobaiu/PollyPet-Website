@@ -11,7 +11,8 @@ Plain HTML and CSS: no framework, build step, scripts, or third-party assets.
 | `index.html` | Support page: contact details and help with common issues |
 | `privacy.html` | Privacy policy page |
 | `styles.css` | Shared styles for all pages |
-| `paw.svg` | Header logo: the app icon's paw mark, tinted for light backgrounds |
+| `paw.svg` | Header logo and tab icon: the app icon's paw mark, tinted for light backgrounds |
+| `favicon-96.png` | PNG tab icon for browsers without SVG favicon support |
 
 ## Local preview
 
